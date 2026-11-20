@@ -1,0 +1,13 @@
+App(
+    appid="car_dj",
+    name="Car DJ",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="car_dj_app",
+    requires=["gui", "bt"],
+    stack_size=2 * 1024,
+    fap_libs=["ble_profile"],
+    fap_category="Bluetooth",
+    fap_description="Kid-friendly music remote for a paired iPhone: play/pause, skip with a cooldown, capped volume.",
+    fap_author="Jean Galea",
+    fap_version="1.0",
+)
